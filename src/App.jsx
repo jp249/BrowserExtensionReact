@@ -2,9 +2,11 @@ import Card from "./Card"
 
 
 function App() {
-  return(<Card body3 = "spongebob">
+  return(<>
+  <Card paragraph = "spongebob" image= 'public\vite.svg' header = "header">
 
-  </Card>)
+  </Card>
+  </>)
 }
 
 export default App
