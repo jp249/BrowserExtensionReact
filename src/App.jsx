@@ -6,7 +6,63 @@ function App() {
   <Card paragraph = "spongebob" image= 'public\vite.svg' header = "header">
 
   </Card>
-  </>)
+
+
+  <Card paragraph = "spongebob" image= 'public\vite.svg' header = "header">
+
+
+  </Card>
+  
+
+  <Card paragraph = "spongebob" image= 'public\vite.svg' header = "header">
+
+</Card>
+
+
+<Card paragraph = "spongebob" image= 'public\vite.svg' header = "header">
+
+</Card>  
+
+
+<Card paragraph = "spongebob" image= 'public\vite.svg' header = "header">
+
+</Card>
+
+
+<Card paragraph = "spongebob" image= 'public\vite.svg' header = "header">
+
+</Card>
+
+<Card paragraph = "spongebob" image= 'public\vite.svg' header = "header">
+
+</Card>
+
+
+<Card paragraph = "spongebob" image= 'public\vite.svg' header = "header">
+
+
+</Card>
+
+
+<Card paragraph = "spongebob" image= 'public\vite.svg' header = "header">
+
+</Card>
+
+
+<Card paragraph = "spongebob" image= 'public\vite.svg' header = "header">
+
+</Card>  
+
+
+<Card paragraph = "spongebob" image= 'public\vite.svg' header = "header">
+
+</Card>
+
+
+<Card paragraph = "spongebob" image= 'public\vite.svg' header = "header">
+
+</Card>
+</>)
 }
 
 export default App
