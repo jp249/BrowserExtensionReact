@@ -7,12 +7,9 @@ function App() {
     <input type="search" placeholder="Extensions">
     </input>
   </div>
-  <div>
-  Extensions List {/*should become own component later*/}
-  <br></br>
-  </div>
-  <div>
-  All Active Inactive {/*should become own component later*/}
+  <div className="header2">
+  <span className="extensionsList">Extensions List {/*should become own component later*/}</span>
+  <span className="active"> <button>All</button> <button>Active</button> <button>Inactive</button> {/*should become own component later*/}</span>
   {/*<br></br>*/}
   </div>
   <Card paragraph = "Quickly inspect page layouts and visualize element boundaries." image= '/logo-devlens.svg' header = "Devlens">

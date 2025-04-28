@@ -27,3 +27,13 @@ color: black;
 font-family: Arial, Helvetica, sans-serif;
 color: hsl(0, 60%, 6%);
 }
+
+.header2 .extensionsList{
+  float: left;
+  text-align: left;
+}
+
+.header2 .active{
+  float: right;
+  text-align: right;
+}
