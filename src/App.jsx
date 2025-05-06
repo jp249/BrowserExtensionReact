@@ -1,19 +1,19 @@
 import Card from "./Card"
 
-
 function App() {
   return(<>
-  <div>
-    <input type="search" placeholder="Extensions">
+  <div className="searchBar">
+    <input type="text" placeholder="Extensions" className="searchBar2">
     </input>
   </div>
   <div className="header2">
   <span className="extensionsList">Extensions List {/*should become own component later*/}</span>
-  <span className="active"> <button>All</button> <button>Active</button> <button>Inactive</button> {/*should become own component later*/}</span>
+  <span className="active"> <button className="buttons">All</button> <button className="buttons">Active</button> <button className="buttons">Inactive</button> {/*should become own component later*/}</span>
   {/*<br></br>*/}
   </div>
+  <div className="cardDiv">
   <Card paragraph = "Quickly inspect page layouts and visualize element boundaries." image= '/logo-devlens.svg' header = "Devlens">
-
+    
   </Card>
 
 
@@ -71,6 +71,7 @@ function App() {
 <Card paragraph = "Enhanced developer console with advanced filtering and logging." image= '/logo-console-plus.svg' header = "ConsolePlus">
 
 </Card>
+</div>
 </>)
 }
 

@@ -2,11 +2,15 @@
   border: 1px solid hsl(0, 0%, 80%);
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
-  padding: 20px;
+  padding: 47px;
   margin: 10px;
   text-align: center;
   max-width: 250px;
   display: inline-block;
+  margin-top: 10px;
+  background-color: hsl(226, 11%, 37%);
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
 }
 
 .Card .cardimage{
@@ -28,12 +32,47 @@ font-family: Arial, Helvetica, sans-serif;
 color: hsl(0, 60%, 6%);
 }
 
+.header2{
+  margin-bottom: 100px;
+}
+
 .header2 .extensionsList{
   float: left;
   text-align: left;
+  font-size: 30px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-bottom: 50px;
 }
 
 .header2 .active{
   float: right;
   text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header2 .buttons{
+  color: red;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchBar {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wholedamnpage {
+  background: linear-gradient(180deg, #040918 0%, #091540 100%);
+}
+
+.cardDiv{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
