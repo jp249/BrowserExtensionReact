@@ -1,15 +1,18 @@
+import consolelog from "./testfile"
+import deleteButton from "./deleteButtonFile"
+
 function Card (props) {
   return(<>
-    <div className="Card">
+    <div className="Card" id={props.header}>
       <img className="cardimage"  alt="extension icon" src={props.image}></img>
       <h2 className="header">{props.header}</h2>
       <p className='body'>{props.paragraph}</p>
-      <label class="switch">
+      <label className="switch">
       <input type="checkbox"/>
-      <span class="slider round"></span>
+      <span className="slider round"></span>
       </label>
       <div>
-      <button class="removeButton">REMOVE</button>
+      <button className="removeButton" onClick={() => {deleteButton(props.header)}}>REMOVE</button>
       </div>
     </div>
     </>
