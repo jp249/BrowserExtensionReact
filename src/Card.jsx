@@ -3,7 +3,7 @@ import deleteButton from "./deleteButtonFile"
 
 function Card (props) {
   return(<>
-    <div className="Card" id={props.header}>
+    <div className="Card" id={props.header} /*loopy={props.aK2}*/>
       <img className="cardimage"  alt="extension icon" src={props.image}></img>
       <h2 className="header">{props.header}</h2>
       <p className='body'>{props.paragraph}</p>
