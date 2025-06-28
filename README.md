@@ -7,4 +7,4 @@ I've also decided to develop it in React.
 
 Built with HTML, CSS, Javascript, and React.
 
-Currently in development. By 
+Currently in development. By https://github.com/jp249 
